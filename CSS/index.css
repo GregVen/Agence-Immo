@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*normalisation de la page*/
+}
+
+html , body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header  */
+
+header{
+    background-color: #555;
+    height: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header i{
+    color:orange;
+    padding-top:1rem ;
+    padding-right: 0.5rem;
+}
+header h1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header h1 a:hover{
+    color: red;
+}
+    
+header div{
+    display:flex;
+}
+
+h1 {
+    font-family: "Long Cang", cursive;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-top: 0.5rem;
+}
+
+header nav ul{
+    list-style: none;
+    display:flex;
+    }
+
+    header nav {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header li a {
+    text-decoration: none;
+    padding: 1.41rem 0.6rem 1.41rem 0.6rem;
+    margin-top: 0.5rem;
+    color: whitesmoke;
+}
+
+li a:hover{
+    background-color: orange;
+    border: 1px solid whitesmoke;
+    color:#333;
+    border-radius: 20px;
+}
+
+/* intro  */
+
+.intro{
+    height: auto;
+    background-image: url(../images/frame.jpg);
+    background-size: cover;
+    text-align:center ;
+    color: whitesmoke;
+    padding: 7rem 16rem 7rem 16rem;
+}
+
+.intro h2{
+    font-size: 3rem;
+}
+
+.intro span{
+    color: orange;
+    font-weight: lighter;
+}
+
+.intro p{
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+/* nos offres  */
+
+#Nos_Offres{
+    background-color: rgb(209, 209, 209);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#Nos_Offres h3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.container_offres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.subcontainer_offres img{
+    width: 15rem;
+    height:auto;
+}
+
+.text_offres{
+    background-color: whitesmoke;
+    width: 15rem;
+    margin-top: -0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.subcontainer_offres p{
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.subcontainer_offres hr{
+    width: 15%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* equipe  */
+
+#Notre_Equipe{
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.equipe_img{
+    background-image: url(../images/team.jpg);
+    background-position: center ;
+    background-size:cover;
+    min-height: 35rem;
+    flex:1;
+}
+
+.equipe_txt{
+    background-color: #333;
+    flex:1;
+    min-height: 35rem;
+    padding: 8rem 2rem 1rem 2rem;
+}
+
+.equipe_txt h4{
+    font-size: 1.5rem;
+    color:whitesmoke;
+    margin-bottom: 2rem;
+}
+
+.equipe_txt span{
+    color: orange;
+    font-weight: lighter;
+}
+
+.equipe_txt p{
+    color:whitesmoke;
+}
+
+/* ce qu'on pense de nous  */
+
+.thinking{
+    background-color: rgb(209, 209, 209);
+    padding:4rem 1rem 4rem 1rem;
+}
+
+.thinking h3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+.picture{
+    width: 128px;
+    height: 182px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.texte {
+    display:flex;
+    align-items: center;
+}
+
+.picture img{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+}
+.picture p{
+    padding-top: 0.5rem;
+}
+
+.description{
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.encart{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding:1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* contact  */
+
+#contact_us {
+    height: 25rem;
+    background-color: #333;
+    color: whitesmoke;
+    padding-top: 5rem; 
+    }
+#contact_us h3{
+    font-weight: lighter;
+    padding-left:23rem;
+}
+
+#contact_us span{
+    color:orange
+}
+#contact_us form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact_us input{
+    width: 30rem;
+    padding: 0.7rem;
+    background-color: #333;
+    color: #777;
+    border:none;
+    border-bottom: 1px solid #777;
+    margin-top: 1rem;
+}
+
+#contact_us button{
+    margin-top: 3rem;
+    padding: 0.5rem 0.8rem;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    color: whitesmoke;
+}
+
+#contact_us button:hover{
+    background-color: red;
+    border: 1px solid whitesmoke;
+}
+
+/* footer  */
+
+footer{
+    height: 6rem;
+    background-color: #555;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2.5rem;
+    font-size: 0.7rem;
+}
