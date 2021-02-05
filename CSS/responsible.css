@@ -1,0 +1,82 @@
+@media screen and (min-width: 0px) and (max-width: 999px) {
+   
+/* header  */
+
+    header{
+        height:13rem;
+        flex-direction: column;   
+        align-items: center;
+        justify-content: space-around;
+        }
+    
+    header nav ul{
+            flex-direction: column;
+        }
+    
+    header li a {
+            padding: 0rem ;
+            color: whitesmoke;
+            margin-top: 0rem;
+        }
+    header li{ 
+        padding-top: 1rem;
+        }
+
+/* intro */
+
+.intro{
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+/* ofres  */
+
+.container_offres{
+    flex-wrap: wrap;
+}
+
+.subcontainer_offres {
+    margin-bottom: 1rem;
+}
+/* equipe  */
+
+#Notre_Equipe{
+    height: auto;
+    display:block;
+}
+
+.equipe_img{
+    min-height: 20rem;
+}
+
+.equipe_txt{
+    background-color: #333;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+/* ce qu'on pense de nous  */
+
+.encart{
+    display:block;
+    text-align: center;
+    padding-right: auto;
+    padding-left: auto;
+   }
+
+.texte {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.picture {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact */
+
+#contact_us input{
+    width: 15rem;
+}
+
+
+}
